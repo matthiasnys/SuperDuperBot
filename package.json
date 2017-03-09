@@ -1,0 +1,15 @@
+{
+  "name": "superduperbot",
+  "version": "1.0.0",
+  "description": "The superduperbot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Matthias Nys (B-NYS)",
+  "license": "ISC",
+  "devDependencies": {
+    "snazzy": "^6.0.0",
+    "standard": "^9.0.1"
+  }
+}
