@@ -6,5 +6,7 @@ provider:
   region: eu-central-1
 
 functions:
-  hello:
-    handler: handler.hello
+  sendMessage:
+    handler: handler.sendMessage
+    events:
+      - http: POST sendMessage
