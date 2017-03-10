@@ -3,7 +3,7 @@ var https = require('https')
 
 // Variables => Use config our external token service.
 var botname = 'TheSuperDuperBot'
-var slackToken = 'xoxp-151301575776-152007960738-152341649861-059b8f894debc63f11d1897e7febd58e'
+var slackToken = 'xoxp-151301575776-152007960738-152341649861-059b8f894debc63f11d1897e7febd58e' //This key is invalid: Use your own Key
 
 module.exports.sendMessage = (event, context, callback) => {
   var body = JSON.parse(event.body)
